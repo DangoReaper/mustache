@@ -1,0 +1,23 @@
+body{
+
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+h2{
+
+    color: sandybrown;
+}
+.btn-info:hover{
+    background-color:greenyellow;
+}
+canvas{
+ animation-name:RGB ;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+}
+@keyframes RGB{
+    from{box-shadow: 1px 1px 40px coral;}
+   to{box-shadow: 1px 1px 40px cadetblue;}
+}
